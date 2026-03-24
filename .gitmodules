@@ -1,0 +1,6 @@
+[submodule "spec/txa16-1"]
+	path = spec/txa16-1
+	url = https://github.com/txa-isa/txa16-1-spec
+[submodule "asm"]
+	path = asm
+	url = https://github.com/txa-isa/asm-txa

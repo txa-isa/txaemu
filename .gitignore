@@ -1,0 +1,47 @@
+# Build directories
+build/
+builddir/
+_build/
+
+# Meson
+.mesonpy/
+meson-private/
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Debug/coverage
+*.dSYM/
+*.gcno
+*.gcda
+*.gcov
+
+# Temporary assembler output
+*.bin
+*.hex
+*.srec
+*.lst
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+*.orig
+
+# clangd / LSP
+.cache/
+compile_commands.json
+
+# OS
+.DS_Store
+Thumbs.db
